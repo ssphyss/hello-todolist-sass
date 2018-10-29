@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:sass": "node-sass sass/all.scss css/all.css -w",
+    "compile:sass": "node-sass sass/all.scss css/all.css",
+    "live": "live-server",
+    "start": "npm-run-all --parallel watch:sass compile:sass devserver"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ssphyss/hello-todolist-sass/issues"
   },
-  "homepage": "https://github.com/ssphyss/hello-todolist-sass#readme"
+  "homepage": "https://github.com/ssphyss/hello-todolist-sass#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.4"
+  }
 }
