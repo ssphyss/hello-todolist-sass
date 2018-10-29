@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\pcpc\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add npm-run-all
+
+PATH: 
+  C:\Users\pcpc\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\pcpc\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone;C:\Program Files\nodejs;C:\WINDOWS\System32\OpenSSH;C:\MAMP\bin\php\php7.2.1;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Ruby23-x64\bin;C:\Ruby22-x64\bin;C:\AppServ\Apache24\bin;C:\AppServ\MySQL\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\pcpc\AppData\Local\atom\bin;C:\Users\pcpc\AppData\Local\Microsoft\WindowsApps;C:\Users\pcpc\AppData\Roaming\npm;C:\Users\pcpc\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.11.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\_0_專案相關\_______TODOLIST_SASS\node_modules\mkdirp\node_modules\minimist'
+
+npm manifest: 
+  {
+    "name": "todolist",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "watch:sass": "node-sass sass/all.scss css/all.css -w",
+      "compile:sass": "node-sass sass/all.scss css/all.css",
+      "live": "live-server",
+      "start": "npm-run-all --parallel watch:sass compile:sass devserver"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ssphyss/hello-todolist-sass.git"
+    },
+    "author": "phy",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ssphyss/hello-todolist-sass/issues"
+    },
+    "homepage": "https://github.com/ssphyss/hello-todolist-sass#readme",
+    "devDependencies": {
+      "node-sass": "^4.9.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

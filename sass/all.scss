@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
 	font-family: sans-serif;
+	background-color:#eee;
 }
 * {
 	-webkit-box-sizing: border-box;
@@ -26,15 +27,15 @@ body {
 // @import '../../node_modules/bootstrap/scss/bootstrap';
 
 // @import 'config/functions';
-// @import 'config/variables';
-// @import 'config/mixins';
-// @import 'config/reset';  
+@import 'config/variables';
+@import 'config/mixins';
+@import 'config/reset';  
 
 /* =========================================
 // 2.0 setup 設定 - 動畫、基本、字型、通用
 // ========================================= */
 // @import 'setup/animations';
-// @import 'setup/base';
+@import 'setup/base';
 // @import 'setup/typography';
 // @import 'setup/utilities';
 
@@ -90,6 +91,7 @@ body {
 // 7.0 Pages 個別頁面
 // ========================================= */
 // @import 'pages/home';
+@import 'pages/todolist';
 // @import 'pages/page__error';
 /* =========================================
 // 8.0 Custom styles 客製化設定

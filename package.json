@@ -7,7 +7,7 @@
     "watch:sass": "node-sass sass/all.scss css/all.css -w",
     "compile:sass": "node-sass sass/all.scss css/all.css",
     "live": "live-server",
-    "start": "npm-run-all --parallel watch:sass compile:sass devserver"
+    "start": "npm-run-all --parallel watch:sass compile:sass live"
   },
   "repository": {
     "type": "git",
